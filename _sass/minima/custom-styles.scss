@@ -1,11 +1,62 @@
 /*-----------------------------------*/
 /*--- IMPORT STYLES FOR FASTPAGES ---*/
-@import "minima/fastpages-styles";   
+@import "minima/fastpages-styles";
+
+// If you want to turn off dark background for syntax highlighting, comment or delete the below line.
+@import "minima/fastpages-dracula-highlight";
 
 
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 
-// If you want to turn off dark background for syntax highlighting, comment or delete the below line.
-@import "minima/fastpages-dracula-highlight"; 
+.page-content {
+    margin: 0 30px;
+}
+
+pre, code {
+    font-size: 16px;
+    background-color: #F2F2F2;
+    border-color:  #F2F2F2;
+}
+
+p code {
+    font-size: 16px;
+}
+
+.highlight pre, .highlight code {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600 !important;
+    color: #333
+}
+
+h1 {
+    font-size: 2em !important;
+}
+
+h2 {
+    font-size: 1.5em !important;
+}
+
+h3 {
+    font-size: 1.25em !important;
+}
+
+.post-content p, .post-content li {
+    color: #000000;
+}
+
+p {
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px,
+}
+
+
