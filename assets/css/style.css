@@ -341,8 +341,6 @@ h2 { margin-top: 2rem !important; }
 
 h3, h4 { margin-top: 1.5rem !important; }
 
-p { margin-top: 1rem !important; margin-bottom: 1rem !important; }
-
 h1, h2, h3, h4 { font-weight: normal !important; margin-bottom: 0.5rem !important; }
 
 h1 code, h2 code, h3 code, h4 code { font-size: 100%; }
@@ -427,8 +425,6 @@ pre code { font-size: 15px !important; }
 
 .youtube-iframe-wrapper iframe, .youtube-iframe-wrapper object, .youtube-iframe-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-/*-----------------------------------*/
-/*----- ADD YOUR STYLES BELOW -------*/
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
@@ -483,5 +479,29 @@ pre code { font-size: 15px !important; }
 .highlight .gd { color: #ff5555; }
 
 p code { font-size: 19px; }
+
+/*-----------------------------------*/
+/*----- ADD YOUR STYLES BELOW -------*/
+.page-content { margin: 0 30px; }
+
+pre, code { font-size: 16px; background-color: #F2F2F2; border-color: #F2F2F2; }
+
+p code { font-size: 16px; }
+
+.highlight pre, .highlight code { font-size: 16px; }
+
+h1, h2, h3, h4 { font-weight: 600 !important; color: #333; }
+
+h1 { font-size: 2em !important; }
+
+h2 { font-size: 1.5em !important; }
+
+h3 { font-size: 1.25em !important; }
+
+.post-content p, .post-content li { color: #000000; }
+
+p { margin-bottom: 1.5rem !important; margin-top: 1.5rem !important; font-size: 20px; }
+
+body { font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
